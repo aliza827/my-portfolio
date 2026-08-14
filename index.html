@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aliza Fatima | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">AF.</div>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="talk-btn">Let's Talk</a>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home">
+
+        <div class="hero-content">
+
+            <p>HELLO, I'M</p>
+
+            <h1>
+                Aliza
+                <span>Fatima</span>
+            </h1>
+
+            <h2>
+                Computer Science Student
+            </h2>
+
+            <h3>
+                Aspiring Data Scientist & ML Engineer
+            </h3>
+
+            <p>
+                I build software projects, explore AI,
+                and create practical digital solutions
+                that make a difference.
+            </p>
+
+            <div>
+                <a href="#projects">View My Work →</a>
+                <a href="#contact">Contact Me →</a>
+            </div>
+
+        </div>
+       <div class="hero-visual">
+
+    <div class="glow-blob"></div>
+
+    <svg class="laptop-svg"
+         viewBox="0 0 500 380"
+         xmlns="http://www.w3.org/2000/svg">
+
+        <defs>
+
+            <linearGradient id="screenGrad"
+                x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#18121f"/>
+                <stop offset="100%" stop-color="#08060d"/>
+            </linearGradient>
+
+            <linearGradient id="bodyGrad"
+                x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#9d8aaa"/>
+                <stop offset="100%" stop-color="#40364a"/>
+            </linearGradient>
+
+            <linearGradient id="baseGrad"
+                x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#786983"/>
+                <stop offset="100%" stop-color="#29222f"/>
+            </linearGradient>
+
+            <filter id="iconGlow">
+                <feGaussianBlur
+                    stdDeviation="5"
+                    result="blur"/>
+                <feMerge>
+                    <feMergeNode in="blur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+
+        </defs>
+
+
+        <!-- LAPTOP SCREEN -->
+
+        <path
+            d="M 90 20
+               L 410 20
+               Q 425 20 425 35
+               L 425 300
+               L 75 300
+               L 75 35
+               Q 75 20 90 20 Z"
+            fill="url(#bodyGrad)"
+        />
+
+        <rect
+            x="90"
+            y="34"
+            width="320"
+            height="252"
+            rx="6"
+            fill="url(#screenGrad)"
+        />
+
+        <rect
+            x="90"
+            y="34"
+            width="320"
+            height="252"
+            rx="6"
+            fill="none"
+            stroke="#a855f7"
+            stroke-opacity="0.25"
+        />
+
+
+        <!-- CODE ICON -->
+
+        <g
+            stroke="#b66cff"
+            stroke-width="8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            fill="none"
+            filter="url(#iconGlow)">
+
+            <path d="M 195 130 L 165 160 L 195 190"/>
+            <path d="M 305 130 L 335 160 L 305 190"/>
+
+        </g>
+
+
+        <!-- HINGE -->
+
+        <rect
+            x="75"
+            y="298"
+            width="350"
+            height="8"
+            fill="#241e2a"
+        />
+
+
+        <!-- KEYBOARD BASE -->
+
+        <path
+            d="M 40 306
+               L 460 306
+               L 490 360
+               Q 492 368 483 368
+               L 17 368
+               Q 8 368 10 360 Z"
+            fill="url(#baseGrad)"
+        />
+
+
+        <!-- KEYBOARD -->
+
+        <rect
+            x="90"
+            y="316"
+            width="320"
+            height="34"
+            rx="4"
+            fill="#120e17"
+        />
+
+        <!-- Keyboard lines -->
+
+        <g
+            stroke="#8e7a9f"
+            stroke-opacity="0.35"
+            stroke-width="2">
+
+            <path d="M105 325 H395"/>
+            <path d="M105 333 H395"/>
+            <path d="M105 341 H395"/>
+
+        </g>
+
+
+        <!-- TRACKPAD -->
+
+        <rect
+            x="215"
+            y="352"
+            width="70"
+            height="10"
+            rx="3"
+            fill="#211a27"
+        />
+
+
+        <!-- FRONT EDGE -->
+
+        <rect
+            x="10"
+            y="366"
+            width="480"
+            height="3"
+            rx="1.5"
+            fill="#c9b8dc"
+            opacity="0.35"
+        />
+
+    </svg>
+
+
+    <!-- AI CARD -->
+
+    <div class="float-card float-ai">
+
+        <span class="float-icon">AI</span>
+
+        <span class="float-text">
+            Exploring<br>
+            Possibilities
+        </span>
+
+    </div>
+
+
+    <!-- DATA CARD -->
+<div class="float-card float-chart">
+    <div class="mini-chart">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="chart-label">Data &amp; AI</div>
+</div>
+
+
+    <!-- CODE CARD -->
+
+    <div class="float-card float-list">
+        &lt;/&gt;
+    </div>
+
+</div>
+
+    </section>
+<!-- =========================
+     ABOUT SECTION
+========================= -->
+
+<section id="about" class="about-section">
+
+    <div class="section-title">
+        <span>ABOUT ME</span>
+        <h2>Who I Am</h2>
+    </div>
+
+    <div class="about-container">
+
+        <!-- About Text -->
+        <div class="about-content">
+
+            <span class="about-intro">
+                Computer Science Student · Developer · Learner
+            </span>
+
+            <h3>
+                Turning curiosity into
+                <span>digital experiences.</span>
+            </h3>
+
+            <p>
+                I am a Computer Science student with a growing interest
+                in software development, artificial intelligence and
+                modern web technologies.
+            </p>
+
+            <p>
+                I enjoy learning new technologies, building practical
+                projects and turning ideas into useful digital solutions.
+                My goal is to continuously improve my technical and
+                problem-solving skills.
+            </p>
+
+            <div class="about-highlights">
+
+                <div class="about-highlight">
+                    <strong>01</strong>
+                    <span>Problem Solving</span>
+                </div>
+
+                <div class="about-highlight">
+                    <strong>02</strong>
+                    <span>Continuous Learning</span>
+                </div>
+
+                <div class="about-highlight">
+                    <strong>03</strong>
+                    <span>Creative Thinking</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- About Info Card -->
+        <div class="about-info">
+
+            <div class="info-item">
+                <span>Focus</span>
+                <strong>Computer Science</strong>
+            </div>
+
+            <div class="info-item">
+                <span>Interests</span>
+                <strong>AI · Web · Data</strong>
+            </div>
+
+            <div class="info-item">
+                <span>Currently Learning</span>
+                <strong>AI & Data Science</strong>
+            </div>
+
+            <div class="info-item">
+                <span>Based In</span>
+                <strong>Pakistan</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     SKILLS SECTION
+========================= -->
+
+<section id="skills" class="skills-section">
+
+    <div class="section-title">
+        <span>SKILLS</span>
+        <h2>What I Work With</h2>
+    </div>
+
+    <div class="skills-container">
+
+        <!-- Technical Skills -->
+        <div class="skills-card">
+
+            <div class="skills-card-header">
+                <div class="skills-icon">⌘</div>
+
+                <div>
+                    <h3>Technical Skills</h3>
+                    <p>Core areas I am developing</p>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Python</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width: 80%;"></span>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>C++</span>
+                    <span>85%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width: 85%;"></span>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>HTML & CSS</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width: 90%;"></span>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>SQL</span>
+                    <span>75%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width: 75%;"></span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Tools & Technologies -->
+        <div class="skills-card">
+
+            <div class="skills-card-header">
+                <div class="skills-icon">✦</div>
+
+                <div>
+                    <h3>Tools & Technologies</h3>
+                    <p>Technologies I work and learn with</p>
+                </div>
+            </div>
+
+            <div class="technology-list">
+
+                <span>Visual Studio</span>
+                <span>Git & GitHub</span>
+                <span>MySQL</span>
+                <span>Oracle Database</span>
+                <span>JavaScript</span>
+                <span>OpenMP</span>
+                <span>MPI</span>
+                <span>WordPress</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     PROJECTS SECTION
+========================= -->
+
+<section id="projects" class="projects-section">
+
+    <div class="section-title">
+        <span>PROJECTS</span>
+        <h2>Featured Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <article class="project-card">
+
+            <div class="project-visual project-one">
+                <span class="project-number">01</span>
+                <span class="project-symbol">&lt;/&gt;</span>
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-top">
+                    <span class="project-category">
+                        Software Development
+                    </span>
+                </div>
+
+                <h3>Hospital Management System</h3>
+
+                <p>
+                    A management system designed to organize
+                    hospital operations, patient records and
+                    administrative information.
+                </p>
+
+                <div class="project-tech">
+                    <span>C++</span>
+                    <span>OOP</span>
+                    <span>File Handling</span>
+                </div>
+
+                <a href="#" class="project-link">
+                    View Project <span>→</span>
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+        <article class="project-card">
+
+            <div class="project-visual project-two">
+                <span class="project-number">02</span>
+                <span class="project-symbol">◈</span>
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-top">
+                    <span class="project-category">
+                        Web Development
+                    </span>
+                </div>
+
+                <h3>Student Learning Platform</h3>
+
+                <p>
+                    A responsive learning platform designed
+                    to provide students with an organized and
+                    accessible digital learning experience.
+                </p>
+
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="#" class="project-link">
+                    View Project <span>→</span>
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+        <article class="project-card">
+
+            <div class="project-visual project-three">
+                <span class="project-number">03</span>
+                <span class="project-symbol">⌘</span>
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-top">
+                    <span class="project-category">
+                        System Design
+                    </span>
+                </div>
+
+                <h3>TimeSync Management System</h3>
+
+                <p>
+                    A scheduling and management concept focused
+                    on organizing courses, schedules and
+                    time-based information efficiently.
+                </p>
+
+                <div class="project-tech">
+                    <span>System Design</span>
+                    <span>Database</span>
+                    <span>UI</span>
+                </div>
+
+                <a href="#" class="project-link">
+                    View Project <span>→</span>
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =========================
+     EXPERIENCE SECTION
+========================= -->
+
+<section id="experience" class="experience-section">
+
+    <div class="section-title">
+        <span>EXPERIENCE</span>
+        <h2>My Experience</h2>
+    </div>
+
+    <div class="experience-container">
+
+        <div class="experience-item">
+
+            <div class="experience-dot"></div>
+
+            <div class="experience-content">
+
+                <div class="experience-header">
+
+                    <div>
+                        <span class="experience-type">
+                            Freelance · Part-time
+                        </span>
+
+                        <h3>IT Client–Engineer Liaison</h3>
+
+                        <h4>IT Company · Third-Party</h4>
+                    </div>
+
+                    <span class="experience-badge">
+                        IT
+                    </span>
+
+                </div>
+
+                <p>
+                    Worked as an intermediary between clients and engineers,
+                    helping connect technical expertise with client needs
+                    and facilitating smooth project engagements.
+                </p>
+
+                <ul class="experience-points">
+                    <li>
+                        Connected clients with suitable engineers for
+                        IT-related projects.
+                    </li>
+
+                    <li>
+                        Coordinated communication between clients and
+                        engineers throughout project engagements.
+                    </li>
+
+                    <li>
+                        Helped facilitate professional project deals
+                        and maintain client relationships.
+                    </li>
+                </ul>
+
+                <div class="experience-tags">
+                    <span>Client Relations</span>
+                    <span>IT Coordination</span>
+                    <span>Communication</span>
+                    <span>Project Engagement</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     EDUCATION SECTION
+========================= -->
+
+<section id="education" class="education-section">
+
+    <div class="section-title">
+        <span>EDUCATION</span>
+        <h2>My Education</h2>
+    </div>
+
+    <div class="education-container">
+
+        <div class="education-card">
+
+            <!-- Education Icon -->
+            <div class="education-icon">
+                🎓
+            </div>
+
+            <!-- Education Content -->
+            <div class="education-content">
+
+                <span class="education-date">
+                    Fall 2023 — Present
+                </span>
+
+                <h3>BS Computer Science</h3>
+
+                <h4>University of Southern Punjab</h4>
+
+                <p>
+                    Pursuing a Bachelor's degree in Computer Science,
+                    building a strong foundation in software development
+                    and problem-solving through academic and practical projects.
+                </p>
+
+                <!-- Relevant Coursework -->
+                <div class="coursework">
+
+                    <h5>Relevant Coursework</h5>
+
+                    <div class="coursework-list">
+                        <span>Data Structures & Algorithms</span>
+                        <span>Database Systems</span>
+                        <span>Operating Systems</span>
+                        <span>Computer Networks</span>
+                        <span>Compiler Construction</span>
+                        <span>Parallel & Distributed Computing</span>
+                        <span>Web Development</span>
+                        <span>Artificial Intelligence</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     RESUME SECTION
+========================= -->
+
+<section id="resume" class="resume-section">
+
+    <div class="section-title">
+        <span>RESUME</span>
+        <h2>My Resume</h2>
+    </div>
+
+    <div class="resume-box">
+
+        <div class="resume-icon">
+            ↓
+        </div>
+
+        <div class="resume-content">
+
+            <span class="resume-label">
+                WANT TO KNOW MORE ABOUT ME?
+            </span>
+
+            <h3>
+                Let's take a closer look
+                at my <span>journey.</span>
+            </h3>
+
+            <p>
+                Explore my education, skills, projects and experience
+                in a detailed resume.
+            </p>
+
+            <div class="resume-buttons">
+
+                <a href="resume.pdf"
+                   target="_blank"
+                   class="resume-btn primary">
+                    View Resume
+                </a>
+
+                <a href="resume.pdf"
+                   download
+                   class="resume-btn secondary">
+                    Download PDF
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="resume-decoration">
+            <span>CV</span>
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     CONTACT SECTION
+========================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="section-title">
+        <span>CONTACT</span>
+        <h2>Let's Work Together</h2>
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+
+            <span class="contact-label">
+                GET IN TOUCH
+            </span>
+
+            <h3>
+                Have an idea?
+                <span>Let's talk.</span>
+            </h3>
+
+            <p>
+                Whether you have a project idea, collaboration opportunity,
+                or simply want to connect, feel free to reach out.
+            </p>
+
+            <div class="contact-details">
+
+                <a href="mailto:faliza827@gmail.com" class="contact-item">
+                    <div class="contact-icon">✉</div>
+
+                    <div>
+                        <small>Email</small>
+                        <strong>faliza827@gmail.com</strong>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/aliza-fatima-71784a38b/" target="_blank" class="contact-item">
+                    <div class="contact-icon">in</div>
+
+                    <div>
+                        <small>LinkedIn</small>
+                        <strong>Connect with me</strong>
+                    </div>
+                </a>
+
+                <a href="https://github.com/aliza827" target="_blank" class="contact-item">
+                    <div class="contact-icon">⌘</div>
+
+                    <div>
+                        <small>GitHub</small>
+                        <strong>View my projects</strong>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+
+            <form id="contactForm">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Your name"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Your email"
+                        >
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        placeholder="Project or collaboration"
+                    >
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        rows="6"
+                        placeholder="Tell me about your idea..."
+                    ></textarea>
+
+                </div>
+
+                <button type="submit" class="contact-submit">
+                    Send Message <span>→</span>
+                </button>
+                <p id="formMessage"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+            <h3>AF.</h3>
+
+            <h2>Let's build something meaningful.</h2>
+
+            <p>
+                Building ideas into digital experiences through code,
+                creativity and technology.
+            </p>
+        </div>
+
+
+        <div class="footer-connect">
+
+            <h3>Connect</h3>
+
+            <a href="https://github.com/aliza827" target="_blank">
+                GitHub ↗
+            </a>
+
+            <a href="mailto:faliza827@gmail.com">
+                Email ↗
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Aliza Fatima. All rights reserved.
+        </p>
+
+        <span>
+            Made with code & creativity.
+        </span>
+
+    </div>
+
+</footer>
+<button id="backToTop" aria-label="Back to top">
+    ↑
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
