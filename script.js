@@ -139,8 +139,12 @@ if (contactForm && formMessage) {
 function toggleMenu() {
     document.getElementById("navLinks").classList.toggle("active");
 }
-document.querySelectorAll("#navLinks a").forEach(link => {
-    link.addEventListener("click", () => {
+
+// Close menu after clicking a link
+const navItems = document.querySelectorAll("#navLinks a");
+
+navItems.forEach(item => {
+    item.addEventListener("click", function () {
         document.getElementById("navLinks").classList.remove("active");
     });
 });
