@@ -136,3 +136,6 @@ if (contactForm && formMessage) {
     });
 
 }
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+}
