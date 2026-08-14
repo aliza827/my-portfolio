@@ -2836,16 +2836,10 @@ nav a {
 .menu-toggle{
     display:none;
     font-size:30px;
-    color:#a855f7;
     cursor:pointer;
 }
 
-@media(max-width:768px){
-
-    nav{
-        position:relative;
-        padding:18px 20px;
-    }
+@media (max-width:768px){
 
     .menu-toggle{
         display:block;
@@ -2853,26 +2847,13 @@ nav a {
 
     nav ul{
         display:none;
-        position:absolute;
-        top:75px;
-        left:0;
-        width:100%;
-        background:#120a20;
         flex-direction:column;
-        text-align:center;
-        padding:20px 0;
-        gap:18px;
     }
 
     nav ul.active{
         display:flex;
     }
 
-    .talk-btn{
-        display:none;
-    }
-}
-@media(max-width:768px){
     .talk-btn{
         display:none;
     }
