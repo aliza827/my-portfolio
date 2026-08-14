@@ -148,3 +148,12 @@ navItems.forEach(item => {
         document.getElementById("navLinks").classList.remove("active");
     });
 });
+const menuLinks = document.querySelectorAll("#navLinks a");
+
+menuLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        setTimeout(() => {
+            document.getElementById("navLinks").classList.remove("active");
+        }, 100);
+    });
+});
